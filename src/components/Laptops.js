@@ -741,7 +741,7 @@ const Laptops = () => {
                     </div>
                 </div>
             </div>
-            {!lappy ? "" : <LaptopOverview />}
+            {!lappy.id ? "" : <LaptopOverview />}
 
         </>
     )
